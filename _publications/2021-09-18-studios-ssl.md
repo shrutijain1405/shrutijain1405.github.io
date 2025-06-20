@@ -3,7 +3,7 @@ title: "A Studious Approach to Semi-Supervised Learning"
 collection: publications
 category: conferences
 paperurl: 'https://arxiv.org/abs/2109.08924'
-excerpt: 'an empirical study of distillation based semi-supervised learning to overcome overfitting, and boosting performance of small deployable models.'
+excerpt: 'An empirical study of distillation based semi-supervised learning to overcome overfitting, and boosting performance of small deployable models.'
 venue: 'ICBINB workshop in the NeurIPS 2021 conference.'
 date: 2021-09-18
 ---
