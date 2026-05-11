@@ -9,33 +9,24 @@ horizontal: false
 ---
 
 <style>
-  /* Override the default multi-column grid to a single wide column */
-  .projects .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .projects-container {
+    max-width: 1400px;
+    margin: 0 auto;
   }
-  .projects .row .col-sm {
+  .projects-container .card {
     width: 100%;
-    max-width: 900px;
+    margin-bottom: 1.5rem;
   }
-  /* Widen the project cards */
-  .projects .card {
-    width: 100%;
-    max-width: 900px;
-  }
-  /* Full-width project card content */
-  .card-body {
+  .projects-container .card-body {
     padding: 1.5rem 2rem;
   }
 </style>
 
-<!-- pages/projects.md -->
 <div class="projects">
-{% assign sorted_projects = site.projects | sort: "importance" %}
-<div class="row row-cols-1" style="max-width: 900px; margin: 0 auto;">
-  {% for project in sorted_projects %}
-    {% include projects.html %}
-  {% endfor %}
-</div>
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  <div class="projects-container row row-cols-1">
+    {% for project in sorted_projects %}
+      {% include projects.html %}
+    {% endfor %}
+  </div>
 </div>
