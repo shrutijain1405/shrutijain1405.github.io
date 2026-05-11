@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Master's student in Electrical Engineering at <a href="https://profiles.stanford.edu/ishikaa-lunawat">Stanford University</a></b>
+subtitle: <b>Master's of Science in Computer Vision at Carnegie Mellon University</b>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_spj.jpg
   image_circular: false # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
@@ -18,7 +18,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-My passion lies in solving complex problems at the intersection of `Computer Vision`, `Machine Learning` and `Robotics`. I thrive on crafting innovative solutions towards embodied and intelligent systems and robots.
+<!-- My passion lies in solving complex problems at the intersection of `Computer Vision`, `Machine Learning` and `Robotics`. I thrive on crafting innovative solutions towards embodied and intelligent systems and robots.
 
 Currently, I'm a master's student in Electrical Engineering at Stanford University, in the *Information Systems and Science* track. I completed my undergraduate degree in Electrical and Electronics Engineering at the National Institute of Technology Tiruchirappalli, India.
 
@@ -28,4 +28,5 @@ I also worked on real-time sleep staging using Interbeat Interval (IBI) of Heart
 
 
 During my undergraduate study, I was a part of the [Spider R&D Club](https://spider.nitt.edu/) as a Machine Learning Researcher. My role involved contributing to interdisciplinary projects, organizing knowledge-sharing sessions and mentoring juniors.
-
+ -->
+TBD
