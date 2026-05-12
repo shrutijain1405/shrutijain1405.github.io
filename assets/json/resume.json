@@ -9,8 +9,18 @@
       "region": "PA",
       "countryCode": "US"
     },
-    "github": "shrutijain1405",
-    "linkedin": "shruti-jain-1405"
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "shrutijain1405",
+        "url": "https://github.com/shrutijain1405"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "shruti-jain-1405",
+        "url": "https://www.linkedin.com/in/shruti-jain-1405/"
+      }
+    ]
   },
   "education": [
     {
