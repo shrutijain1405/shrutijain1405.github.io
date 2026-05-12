@@ -4,7 +4,6 @@
     "label": "MS Computer Vision, Carnegie Mellon University",
     "email": "spjain@andrew.cmu.edu",
     "phone": "+1-412-589-5683",
-    "url": "https://shrutijain1405.github.io",
     "location": {
       "city": "Pittsburgh",
       "region": "PA",
@@ -33,9 +32,6 @@
       "endDate": "2026-12",
       "score": "4.11/4.0",
       "courses": [
-        "Visual Learning and Recognition",
-        "Advanced Computer Vision",
-        "Introduction to Machine Learning"
       ]
     },
     {
@@ -83,8 +79,6 @@
       "endDate": "2025-12",
       "summary": "Advisor: Prof. Deva Ramanan",
       "highlights": [
-        "Worked on iterative prompt optimization with few-shot images to improve out-of-distribution object detection on large-scale multi-modal language models.",
-        "Benchmarked Qwen3-VL for object detection across three settings: class-name prompting, detailed instruction prompting, and few-shot image prompting.",
         "Developed DetPO, a gradient-free black-box prompt optimization framework achieving up to 9.7% improvement over prior approaches on Roboflow20-VL and LVIS."
       ]
     },
@@ -117,8 +111,7 @@
       "startDate": "2022-06",
       "endDate": "2023-01",
       "highlights": [
-        "Laid the groundwork for increasing the efficiency of Ant Colony Optimization for solving the Travelling Salesman Problem by learning better features with Deep Learning.",
-        "Designed and implemented a feature extraction pipeline in Python combining classical combinatorial optimization with learned neural representations."
+        "Laid the groundwork for increasing the efficiency of Ant Colony Optimization for solving the Travelling Salesman Problem by learning better features with Deep Learning."
       ]
     },
     {
@@ -128,8 +121,7 @@
       "endDate": "2021-12",
       "highlights": [
         "Worked on Zero-Shot Object Detection (ZSOD), enabling recognition and localization of unknown objects using textual descriptions by synthesizing unseen features with GANs.",
-        "Integrated ZSOD with Continual Learning to enable incremental unseen class learning without catastrophic forgetting.",
-        "Developed and benchmarked the pipeline across standard zero-shot detection datasets."
+        "Integrated ZSOD with Continual Learning to enable incremental unseen class learning without catastrophic forgetting."
       ]
     },
     {
@@ -138,18 +130,17 @@
       "startDate": "2022-01",
       "endDate": "2022-04",
       "highlights": [
-        "Developed a lightweight pipeline to detect failed 3D prints in real time using image processing techniques with OpenCV and anomaly detection in Python.",
-        "Designed the system for efficient deployment on embedded hardware with minimal latency, enabling real-time feedback during the print process."
+        "Developed a lightweight pipeline to detect failed 3D prints in real time using image processing techniques with OpenCV and anomaly detection in Python."
       ]
     },
     {
       "name": "Project MANAS",
       "position": "AI Team Member",
-      "startDate": "2020-08",
+      "startDate": "2021-08",
       "endDate": "2023-05",
       "highlights": [
         "Contributed to the AI team of Manipal's autonomous driving team, working on perception and computer vision modules for a self-driving vehicle.",
-        "Worked on sensor fusion and localization using LiDAR point clouds, and on real-time object detection pipelines for the autonomous driving stack.",
+        "Worked on sensor fusion and localization using LiDAR point clouds.",
         "Participated in the AUVSI SUAS competition, achieving autonomous detection and classification of aerial markers with 55% shape accuracy and 75% character accuracy."
       ]
     }
@@ -161,7 +152,7 @@
       "startDate": "2020-08",
       "endDate": "2023-05",
       "highlights": [
-        "Served as the AI/CS Expertise Head at Research Society MIT, an organization promoting undergraduate research across technical domains.",
+        "Served as the AI Expertise Head at Research Society MIT, an organization promoting undergraduate research across technical domains.",
         "Organized workshops, reading groups, and research mentorship sessions to help undergraduate students get started with AI and computer vision research.",
         "Coordinated interdisciplinary research initiatives and helped members publish their first research papers."
       ]
