@@ -1,107 +1,170 @@
 {
   "basics": {
-    "name": "Ishikaa Lunawat",
-    "label": "Master's Student at Stanford University",
-    "image": "",
-    "email": "ishikaa@stanford.edu",
-    "phone": "(650)531-9656",
-    "url": "https://ishikaa.github.io/home/",
-    "summary": "Creative and detail-oriented graduate student with 2+ years experience in machine learning, computer vision, and robotics research. Published in top conferences on 3D geometric reconstruction and domain adaptation. Skilled in Python and Deep Learning frameworks (OpenCV, PyTorch, TensorFlow), with a record of independent task execution and effective communication in both academic and industry settings",
+    "name": "Shruti Jain",
+    "label": "MS Computer Vision, Carnegie Mellon University",
+    "email": "spjain@andrew.cmu.edu",
+    "phone": "+1-412-589-5683",
+    "url": "https://shrutijain1405.github.io",
     "location": {
-      "postalCode": "CA 94305",
-      "city": "Stanford",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Pittsburgh",
+      "region": "PA",
+      "countryCode": "US"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "ishikaa-lunawat",
-        "url": "https://linkedin.com/in/ishikaa-lunawat/"
+        "username": "shruti-jain-1405",
+        "url": "https://www.linkedin.com/in/shruti-jain-1405/"
+      },
+      {
+        "network": "GitHub",
+        "username": "shrutijain1405",
+        "url": "https://github.com/shrutijain1405"
       }
     ]
   },
-  "volunteer": [],
   "education": [
     {
-      "institution": "Stanford University",
-      "url": "https://www.stanford.edu/",
-      "area": "Electrical Engineering",
+      "institution": "Carnegie Mellon University",
+      "url": "https://www.cmu.edu",
+      "area": "Computer Vision",
       "studyType": "Master of Science",
-      "startDate": "2023",
-      "endDate": "2025",
-      "score": "",
+      "startDate": "2025-08",
+      "endDate": "2026-12",
+      "score": "4.11/4.0",
       "courses": [
-        "Deep Multi-task & Meta Learning", 
-        "Principles of Robot Autonomy I",
-        "Machine Learning with Graph Neural Networks"
+        "Visual Learning and Recognition",
+        "Advanced Computer Vision",
+        "Introduction to Machine Learning"
       ]
     },
     {
-      "institution": "National Institute of Technology, Tiruchirappalli",
-      "url": "https://www.nitt.edu/",
-      "area": "Electrical and Electronics Engineering",
+      "institution": "Manipal Institute of Technology",
+      "url": "https://manipal.edu",
+      "area": "Information Technology",
       "studyType": "Bachelor of Technology",
-      "startDate": "2019",
-      "endDate": "2023",
-      "score": "",
-      "courses": [
-        "Machine Learing & Deep Learning", 
-        "Industrial Automation",
-        "Modern Control Systems"
+      "startDate": "2019-08",
+      "endDate": "2023-05",
+      "score": "8.71/10"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages & Tools",
+      "keywords": ["Python", "C++", "Java", "Docker", "Kubernetes", "SQL"]
+    },
+    {
+      "name": "ML & CV Frameworks",
+      "keywords": ["PyTorch", "OpenCV", "ROS", "CUDA", "scikit-learn", "TensorFlow", "Matplotlib"]
+    },
+    {
+      "name": "AI Topics",
+      "keywords": ["Computer Vision", "Transformers", "VLMs", "Generative Models", "Object Detection", "Image Segmentation", "Zero-shot Learning", "Semi-supervised Learning", "Domain Adaptation"]
+    }
+  ],
+  "work": [
+    {
+      "name": "AIRLab, Carnegie Mellon University",
+      "position": "Research Assistant",
+      "url": "https://mscvprojects.ri.cmu.edu/2026teamf21/",
+      "startDate": "2026-01",
+      "endDate": "2026-04",
+      "summary": "Advisor: Prof. Sebastian Scherer",
+      "highlights": [
+        "Developed a multimodal medical triaging pipeline for the DARPA Triage Challenge using RGB and thermal UAV imagery to predict 50+ hierarchical medical labels.",
+        "Built a two-stage system combining conditional diffusion-based RGB-to-IR generation and VLM fine-tuning with LoRA/GRPO optimization to improve triage reasoning under limited paired RGB–IR data.",
+        "Designed an agentic reasoning pipeline leveraging Vision-Language Models for real-time casualty assessment from drone footage."
+      ]
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "position": "Research Assistant",
+      "startDate": "2025-08",
+      "endDate": "2025-12",
+      "summary": "Advisor: Prof. Deva Ramanan",
+      "highlights": [
+        "Worked on iterative prompt optimization with few-shot images to improve out-of-distribution object detection on large-scale multi-modal language models.",
+        "Benchmarked Qwen3-VL for object detection across three settings: class-name prompting, detailed instruction prompting, and few-shot image prompting.",
+        "Developed DetPO, a gradient-free black-box prompt optimization framework achieving up to 9.7% improvement over prior approaches on Roboflow20-VL and LVIS."
+      ]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "position": "Software Developer",
+      "url": "https://www.paloaltonetworks.com",
+      "startDate": "2023-10",
+      "endDate": "2025-04",
+      "highlights": [
+        "Built features and APIs for microservices (Java Spring Boot) to ingest events from tenant cloud accounts (AWS, Azure, GCP) for near real-time threat detection using AI.",
+        "Integrated a scheduler-worker service for polling cloud accounts using a job management framework based on SQS Queue and Redis cache.",
+        "Contributed to a high-throughput, fault-tolerant cloud security pipeline serving enterprise customers across multiple cloud providers."
+      ]
+    },
+    {
+      "name": "Robotics Research Centre, IIIT Hyderabad",
+      "position": "Research Assistant",
+      "startDate": "2023-06",
+      "endDate": "2023-09",
+      "highlights": [
+        "Achieved a 14.4% average decrease in mean absolute scores across 3 datasets compared to SOTA for semantic segmentation in adverse weather conditions for autonomous driving.",
+        "Implemented a differentiable visual and latent prompting mechanism to fine-tune the Segment Anything Model via adaptors and learnable image pre-processing blocks.",
+        "Constructed parallel and serial adaptor architectures to generate visual and latent prompts for robust out-of-distribution segmentation."
+      ]
+    },
+    {
+      "name": "Nest Labs, Worcester Polytechnic Institute",
+      "position": "Research Intern",
+      "startDate": "2022-06",
+      "endDate": "2023-01",
+      "highlights": [
+        "Laid the groundwork for increasing the efficiency of Ant Colony Optimization for solving the Travelling Salesman Problem by learning better features with Deep Learning.",
+        "Designed and implemented a feature extraction pipeline in Python combining classical combinatorial optimization with learned neural representations."
+      ]
+    },
+    {
+      "name": "AI and Robotics Lab (AIRL), IISc Bangalore",
+      "position": "Research Intern",
+      "startDate": "2021-07",
+      "endDate": "2021-12",
+      "highlights": [
+        "Worked on Zero-Shot Object Detection (ZSOD), enabling recognition and localization of unknown objects using textual descriptions by synthesizing unseen features with GANs.",
+        "Integrated ZSOD with Continual Learning to enable incremental unseen class learning without catastrophic forgetting.",
+        "Developed and benchmarked the pipeline across standard zero-shot detection datasets."
+      ]
+    },
+    {
+      "name": "Advect Systems – Printerverse",
+      "position": "Computer Vision Intern",
+      "startDate": "2022-01",
+      "endDate": "2022-04",
+      "highlights": [
+        "Developed a lightweight pipeline to detect failed 3D prints in real time using image processing techniques with OpenCV and anomaly detection in Python.",
+        "Designed the system for efficient deployment on embedded hardware with minimal latency, enabling real-time feedback during the print process."
+      ]
+    },
+    {
+      "name": "Project MANAS",
+      "position": "AI Team Member",
+      "startDate": "2020-08",
+      "endDate": "2023-05",
+      "highlights": [
+        "Contributed to the AI team of Manipal's autonomous driving team, working on perception and computer vision modules for a self-driving vehicle.",
+        "Worked on sensor fusion and localization using LiDAR point clouds, and on real-time object detection pipelines for the autonomous driving stack.",
+        "Participated in the AUVSI SUAS competition, achieving autonomous detection and classification of aerial markers with 55% shape accuracy and 75% character accuracy."
       ]
     }
   ],
-  "experience": [
+  "Leadership Positions": [
     {
-      "name": "Omnyk Inc.",
-      "position": "Machine Learning Intern",
-      "url": "https://www.omnyk.com/",
-      "startDate": "August 2022",
-      "endDate": "March 2023",
-      "summary": "Implemented squeeze-and-excite blocks and achieved 73% accuracy on sleep-stage classification using interbeat intervaldata for human heart score prediction. Performed sleep quality analysis for 10+ patients and created heart health reports with visualizations for patientsdiagnosed with cardiovascular problems"
+      "organization": "Research Society Manipal",
+      "position": "Co-Expertise Head, AI",
+      "startDate": "2020-08",
+      "endDate": "2023-05",
+      "highlights": [
+        "Served as the AI/CS Expertise Head at Research Society MIT, an organization promoting undergraduate research across technical domains.",
+        "Organized workshops, reading groups, and research mentorship sessions to help undergraduate students get started with AI and computer vision research.",
+        "Coordinated interdisciplinary research initiatives and helped members publish their first research papers."
+      ]
     }
-  ],
-  "awards and competitions": [
-    {
-      "title": "Shri Muthukaruppan Endowment Award",
-      "date": "2023",
-      "awarder": "National Institute of Technology, Tiruchirappalli"
-    },
-    {
-      "title": "DAAD-WISE Scholarship",
-      "date": "2022",
-      "awarder": "German Academic Exchange Service"
-    },
-    {
-      "title": "MITACS Globalink Research Scholarship",
-      "date": "2022",
-      "awarder": "MITACS"
-    },
-    {
-      "title": "Runner's Up in Healthcare domain",
-      "date": "2021",
-      "awarder": "Sangam Hardware Hackathon 2021"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native Speaker"
-    },
-    {
-      "language": "French",
-      "fluency": "Beginner"}
-
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  ]
 }
