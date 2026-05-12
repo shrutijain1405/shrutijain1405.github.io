@@ -55,7 +55,7 @@
     },
     {
       "name": "AI Topics",
-      "keywords": ["Computer Vision", "Transformers", "VLMs", "Generative Models", "Object Detection", "Image Segmentation", "Zero-shot Learning", "Semi-supervised Learning", "Domain Adaptation"]
+      "keywords": ["Computer Vision", "Transformers", "VLMs", "Building Agents", "Generative Models", "Object Detection", "Image Segmentation", "Zero-shot Learning", "Semi-supervised Learning", "Domain Adaptation"]
     }
   ],
   "experience": [
