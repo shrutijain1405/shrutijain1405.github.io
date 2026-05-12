@@ -11,7 +11,7 @@ category: Projects
 
 [Paper](https://arxiv.org/abs/2208.06804)
 
-[PDF](https://arxiv.org/pdf/2208.06804)
+<!-- [PDF](https://arxiv.org/pdf/2208.06804) -->
 
 ---
 
