@@ -13,5 +13,3 @@ nav_order: 2
 {% bibliography %}
 
 </div>
-
-<p class="mt-3" style="font-size: 0.9em; color: var(--global-text-color-light);"><sup>1</sup> Equal contribution / Shared first authorship.</p>
