@@ -10,7 +10,9 @@ category: Projects
 **Status:** Under Review — ECCV (Rebuttal)
 
 [Paper](https://arxiv.org/abs/2603.23455)
+
 [Website](https://ggare-cmu.github.io/DetPO/)
+
 [Code](https://github.com/ggare-cmu/DetPO)
 
 <!-- [PDF](https://arxiv.org/pdf/2603.23455) -->
