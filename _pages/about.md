@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Master's of Science in Computer Vision at Carnegie Mellon University</b>
+subtitle: <b>MS in Computer Vision at Carnegie Mellon University</b>
 
 profile:
   align: right

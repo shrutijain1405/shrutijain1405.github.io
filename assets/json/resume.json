@@ -79,7 +79,7 @@
       "endDate": "2025-12",
       "summary": "Advisor: Prof. Deva Ramanan",
       "highlights": [
-        "Developed DetPO, a gradient-free black-box prompt optimization framework achieving up to 9.7% improvement over prior approaches on Roboflow20-VL and LVIS."
+        "Contributed to the development of DetPO, a gradient-free black-box prompt optimization framework achieving up to 9.7% improvement over prior approaches on Roboflow20-VL and LVIS."
       ]
     },
     {
