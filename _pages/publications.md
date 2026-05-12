@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: My research spans computer vision, multi-modal learning, and autonomous systems.
+description: My research spans computer vision, Vision-Language Models, agentic systems, and autonomous systems.
 nav: true
 nav_order: 2
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A collection of research projects and course work spanning computer vision, multimodal learning, NLP, and autonomous systems.
+description: 
 nav: true
 nav_order: 3
 horizontal: false
