@@ -7,20 +7,10 @@
     "location": {
       "city": "Pittsburgh",
       "region": "PA",
-      "countryCode": "US"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "shruti-jain-1405",
-        "url": "https://www.linkedin.com/in/shruti-jain-1405/"
-      },
-      {
-        "network": "GitHub",
-        "username": "shrutijain1405",
-        "url": "https://github.com/shrutijain1405"
-      }
-    ]
+      "countryCode": "US",
+      "github": "shrutijain1405",
+      "linkedin": "shruti-jain-1405"
+    }
   },
   "education": [
     {
@@ -58,7 +48,7 @@
       "keywords": ["Computer Vision", "Transformers", "VLMs", "Generative Models", "Object Detection", "Image Segmentation", "Zero-shot Learning", "Semi-supervised Learning", "Domain Adaptation"]
     }
   ],
-  "work": [
+  "Experience": [
     {
       "name": "AIRLab, Carnegie Mellon University",
       "position": "Research Assistant",
