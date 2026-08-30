@@ -29,10 +29,12 @@ I also worked on real-time sleep staging using Interbeat Interval (IBI) of Heart
 
 During my undergraduate study, I was a part of the [Spider R&D Club](https://spider.nitt.edu/) as a Machine Learning Researcher. My role involved contributing to interdisciplinary projects, organizing knowledge-sharing sessions and mentoring juniors.
  -->
-Shruti Jain is a graduate student in Computer Vision at Carnegie Mellon University (GPA 4.11/4), with research interests spanning computer vision, Vision-Language Models, and autonomous systems, with work published at IROS 2024 and workshops at ICML and NeurIPS.
+Shruti Jain is a graduate student in Computer Vision at Carnegie Mellon University, focused on building production-ready multimodal vision systems that solve complex, open-ended problems, with work published at IROS 2024 and workshops at ICML and NeurIPS.
 
-Prior to CMU, she worked as a Software Developer at Palo Alto Networks, building microservices for real-time cloud threat detection, and completed research internships at IIIT Hyderabad's Robotics Research Centre and Worcester Polytechnic Institute.
+Most recently, she served as a Computer Vision Research Engineer Intern at Flowstate AI, contributing to an end-to-end AI video editing system that transforms long-form footage into prompt-driven, intelligently reframed content. Her work encompassed the full computational cinematography pipeline: multimodal story understanding and planning, automated subject grounding and tracking, workflow orchestration, and system evaluation.
 
 At CMU, she has worked on iterative prompt optimization for few-shot object detection with large-scale MLLMs under Prof. Deva Ramanan, and on multimodal medical triaging for the DARPA Triage Challenge using RGB and thermal UAV imagery under Prof. Sebastian Scherer.
 
-She is broadly interested in building vision systems that operate reliably in real-world, out-of-distribution conditions, spanning autonomous vehicles, drones, and grounding and reasoning with VLMs.
+Prior to CMU, she worked as a Software Developer at Palo Alto Networks, building microservices for real-time cloud threat detection, and completed research internships at IIIT Hyderabad’s Robotics Research Centre and Worcester Polytechnic Institute.
+
+Her broader interests lie in building end-to-end intelligent systems that combine strong perception, grounding, and reasoning with rigorous evaluations, and that operate reliably in real-world, out-of-distribution conditions across applications such as autonomous vehicles and vision-language systems.
