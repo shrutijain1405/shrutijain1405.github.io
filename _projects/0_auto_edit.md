@@ -9,8 +9,6 @@ category: Projects
 
 **Role:** Computer Vision Research Engineer Intern — Flowstate AI
 
-<a href="{{ '/assets/presentations/auto-edit/' | relative_url }}" class="btn btn-primary" aria-label="Open the Auto Edit interactive presentation">View Interactive Presentation</a>
-
 ---
 
 {% include figure.html path="assets/img/projects/auto_edit.png" title="Auto Edit — Story-Aware Vertical Video" class="img-fluid rounded z-depth-1" %}
