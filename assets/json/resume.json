@@ -60,6 +60,17 @@
   ],
   "experience": [
     {
+      "name": "Flowstate AI",
+      "position": "Computer Vision Research Engineer Intern",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "highlights": [
+        "Built an end-to-end multimodal Auto Edit system that transforms long-form horizontal footage into prompt-driven, story-aware vertical edits.",
+        "Developed shot-aware subject grounding, tracking, and stable framing logic to identify salient subjects and preserve cinematographic composition on a 9:16 canvas.",
+        "Designed workflow orchestration and evaluation signals for motion, composition, and narrative quality, enabling transparent human review and iterative refinement."
+      ]
+    },
+    {
       "name": "AIRLab, Carnegie Mellon University",
       "position": "Research Assistant",
       "url": "https://mscvprojects.ri.cmu.edu/2026teamf21/",
