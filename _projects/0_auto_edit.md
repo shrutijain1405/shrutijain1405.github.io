@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Auto Edit — Story-Aware Vertical Video
+title: "Auto Edit: Intelligent Video Reframing Tool"
 description: Multimodal computer vision and editorial reasoning · Flowstate AI
 img: assets/img/projects/auto_edit.png
 importance: 0
@@ -11,7 +11,7 @@ category: Projects
 
 ---
 
-{% include figure.html path="assets/img/projects/auto_edit.png" title="Auto Edit — Story-Aware Vertical Video" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/projects/auto_edit.png" title="Auto Edit: Intelligent Video Reframing Tool" class="img-fluid rounded z-depth-1" %}
 
 Auto Edit is a multimodal computer vision system that turns long-form horizontal video into story-aware vertical edits. Instead of treating the task as a simple center crop, the system first reasons about which moments satisfy a creative brief, then decides how each selected shot should be framed for a 9:16 canvas.
 
