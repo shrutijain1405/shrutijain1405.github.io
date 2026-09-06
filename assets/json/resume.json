@@ -67,7 +67,7 @@
       "highlights": [
         "Built an end-to-end multimodal Auto Edit system that transforms long-form horizontal footage into prompt-driven, story-aware vertical edits.",
         "Developed shot-aware subject grounding, tracking, and stable framing logic to identify salient subjects and preserve cinematographic composition on a 9:16 canvas.",
-        "Designed workflow orchestration and evaluation signals for motion, composition, and narrative quality, enabling transparent human review and iterative refinement."
+        "Built an end-to-end multimodal computational cinematography pipeline for story planning, shot detection, subject grounding and tracking, automated reframing, workflow orchestration, and self-evaluation."
       ]
     },
     {
