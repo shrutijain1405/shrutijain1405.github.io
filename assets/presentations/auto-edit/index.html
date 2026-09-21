@@ -38,32 +38,9 @@
       <div class="problem-grid"><div><div class="eyebrow">Why the geometry matters</div><p class="metric">A 9:16 crop keeps less than one-third of a 16:9 frame’s width.</p><ul class="bullets"><li>No universal center crop</li><li>The subject changes at every cut</li><li>Motion must remain stable</li><li>A small miss may result in missing the story</li></ul></div><div><img class="problem-image" src="media/derby-crop.jpg" alt="A narrow vertical crop selecting the main action in a horse race"><p class="caption">The narrower the canvas, the more intentional every decision must be.</p></div></div>
     </section>
 
-    <section class="stage" data-label="System map">
-      <h2 class="slide-title">A creative-AI system, not a single model</h2>
-      <div class="legend"><span><i></i>reasoning stage</span><span><i class="artifact"></i>shared artifact</span><span><i class="human"></i>human checkpoint</span></div>
-      <div class="flow-map">
-        <div class="rail">Source video</div><div class="flow-row"><div class="node">Understand intent<small>brief + video context</small></div><span class="connector"></span><div class="node">Select moments<small>story plan</small></div><span class="connector"></span><div class="node artifact">editable story plan<small>start · end · rationale</small></div></div>
-        <div></div><div class="checkpoint">STORY REVIEW&nbsp;&nbsp;—&nbsp;&nbsp;approve · retime · reorder</div>
-        <div class="rail">Scene ×N</div><div class="flow-row"><div class="node">Detect shots<small>cut-aware planning</small></div><span class="connector"></span><div class="node">Choose framing<small>subject + composition</small></div><span class="connector"></span><div class="node artifact">shot decisions<small>mode · subject · crop</small></div></div>
-        <div></div><div class="checkpoint">FRAMING REVIEW&nbsp;&nbsp;—&nbsp;&nbsp;adjust subject · mode · crop</div>
-        <div class="rail">Shot ×N</div><div class="flow-row"><div class="node">Ground subject<small>visual anchors</small></div><span class="connector"></span><div class="node">Track<small>temporal consistency</small></div><span class="connector"></span><div class="node">Compose<small>stable keyframes</small></div><span class="connector"></span><div class="node">Evaluate<small>quality signals</small></div><span class="connector"></span><div class="node artifact">editable timeline<small>decisions per shot</small></div></div>
-        <div></div><div class="output"><strong>OUTPUT</strong>reviewable edit · timeline interchange · final vertical render</div>
-      </div>
-    </section>
-
     <section class="stage" data-label="Evaluation">
       <h2 class="slide-title">Good framing is more than accurate tracking</h2><p class="sub">The system must observe, judge, and refine—across motion, composition, and story.</p><p class="eval-intro">Evaluation turns subjective quality into a repairable signal.</p>
       <div class="eval-grid"><article class="eval-card"><h3>1&nbsp;&nbsp;Observe&nbsp;&nbsp;context</h3><p>Read motion, composition, and story together.</p></article><article class="eval-card"><h3>2&nbsp;&nbsp;Judge&nbsp;&nbsp;quality</h3><p>Name the failure: subject, framing, or temporal stability.</p></article><article class="eval-card"><h3>3&nbsp;&nbsp;Refine&nbsp;&nbsp;decision</h3><p>Turn each verdict into the next repair—not just a score.</p></article></div><p class="takeaway">A good edit is coherent, readable, stable, and intentional.</p>
-    </section>
-
-    <section class="stage" data-label="Results" style="--progress:100%">
-      <h2 class="slide-title">Results</h2>
-      <div class="results">
-        <article class="video-card" data-label="01"><video controls playsinline preload="metadata" poster="media/res1-poster.jpg"><source src="media/res1-web.mp4" type="video/mp4"></video></article>
-        <article class="video-card" data-label="02"><video controls playsinline preload="metadata" poster="media/res2-poster.jpg"><source src="media/res2-web.mp4" type="video/mp4"></video></article>
-        <article class="video-card" data-label="03"><video controls playsinline preload="metadata" poster="media/res3-poster.jpg"><source src="media/res3-web.mp4" type="video/mp4"></video></article>
-        <article class="video-card" data-label="04"><video controls playsinline preload="metadata" poster="media/res4-poster.jpg"><source src="media/res4-web.mp4" type="video/mp4"></video></article>
-      </div>
     </section>
 
     <section class="stage" data-label="Capabilities">
