@@ -35,4 +35,4 @@ During her summer internship at Flowstate AI, she architected and shipped an AI 
 
 At CMU, she has worked on prompt optimization for few-shot object detection with Prof. Deva Ramanan and multimodal medical triage using RGB and thermal UAV imagery for the DARPA Triage Challenge with Prof. Sebastian Scherer.
 
-Previously, she built cloud threat-detection microservices at Palo Alto Networks and completed research internships at IIIT Hyderabad’s Robotics Research Centre and Worcester Polytechnic Institute.
+Her broader interests lie in building end-to-end intelligent systems that combine strong perception, grounding, and reasoning with rigorous evaluations, and that operate reliably in real-world, out-of-distribution conditions across applications such as autonomous vehicles and vision-language systems.
