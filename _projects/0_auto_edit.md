@@ -18,5 +18,3 @@ category: Projects
 Auto Edit is a multimodal computer vision system that turns long-form horizontal video into story-aware vertical edits. Instead of treating the task as a simple center crop, the system first reasons about which moments satisfy a creative brief, then decides how each selected shot should be framed for a 9:16 canvas.
 
 I worked across the system end to end: translating creative intent and video context into editable story plans, building shot-aware subject grounding and tracking, composing stable vertical framing, and creating evaluation signals for motion, composition, and narrative quality. Human review remains part of the workflow through transparent scene and framing decisions that can be retimed, reordered, or refined.
-
-The interactive presentation includes playable examples of the resulting edits and is designed to open directly in the browser.
