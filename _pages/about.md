@@ -29,10 +29,12 @@ I also worked on real-time sleep staging using Interbeat Interval (IBI) of Heart
 
 During my undergraduate study, I was a part of the [Spider R&D Club](https://spider.nitt.edu/) as a Machine Learning Researcher. My role involved contributing to interdisciplinary projects, organizing knowledge-sharing sessions and mentoring juniors.
  -->
-Shruti Jain is a graduate student in Computer Vision at Carnegie Mellon University, focused on building reliable multimodal vision systems. Her research has been accepted at ECCV 2026, IROS 2024, and workshops at ICML and NeurIPS.
+I’m a master’s student in Computer Vision at Carnegie Mellon University. My work focuses on scene understanding, tracking and re-identification, adapting vision and vision-language models, and optimizing prompts for visual grounding and reasoning.
 
-During her summer internship at Flowstate AI, she architected and shipped an AI video editor that transforms long-form footage into prompt-driven vertical content. Her work spanned multimodal story planning, subject grounding and tracking, automated reframing, orchestration, and evaluation.
+At CMU’s AIRLab, I’m developing methods for casualty re-identification across aerial thermal and ground near-infrared video, alongside multimodal VLM adaptation for casualty assessment. At Flowstate AI, I built and shipped a video system combining subject grounding, tracking, trajectory verification, and automated reframing.
 
-At CMU, she has worked on prompt optimization for few-shot object detection with Prof. Deva Ramanan and multimodal medical triage using RGB and thermal UAV imagery for the DARPA Triage Challenge with Prof. Sebastian Scherer.
+My research also includes DetPO, which improves few-shot object detection through black-box prompt optimization, and DiffPrompter, which adapts vision foundation models to challenging visual conditions. These works appeared at ECCV 2026 and IROS 2024, respectively.
 
-Her broader interests lie in building end-to-end intelligent systems that combine strong perception, grounding, and reasoning with rigorous evaluations, and that operate reliably in real-world, out-of-distribution conditions across applications such as autonomous vehicles and vision-language systems.
+Across research and industry, I’m interested in making perception systems reliable when viewpoints, modalities, and visual conditions change—and building the evaluation and software needed to turn those methods into working systems.
+
+Outside of research, I enjoy anything creative—art, dancing, reading, and writing. I love exploring new ideas and expressing myself through these different mediums.
