@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Text-Based Editing of 3D Gaussian Splats
-description: Instruction-guided 3D scene editing with Gaussian Splatting
+title: "SplatEdit: Language-Guided Editing of 3D Scenes"
+description: Visual grounding and consistency across views in Gaussian Splat editing
 img: assets/img/projects/splatedit.png
 importance: 6
 category: Projects
@@ -15,4 +15,6 @@ category: Projects
 
 {% include figure.html path="assets/img/projects/splatedit.png" title="SplatEdit Pipeline" class="img-fluid rounded z-depth-1" %}
 
-SplatEdit enables text-driven editing of 3D Gaussian Splat scenes by combining the gsplat training pipeline with a Qwen + SAM + Instruct-Pix2Pix editing module that iteratively generates multi-view edited renderings consistent with a natural language instruction (e.g., "make it autumn") and uses them to update the Gaussian Splat parameters, alternating between image editing and Gaussian optimization steps, with CLIP Directional Similarity used as the primary evaluation metric and BLIP-generated captions providing automatic references for the original scenes.
+SplatEdit connects natural-language instructions with global and localized edits to 3D Gaussian Splat scenes. The pipeline combines **Qwen/SAM language-guided segmentation**, diffusion-based image editing, and Gaussian optimization, alternating between edited renderings and updates to the 3D representation.
+
+My work included **DDIM inversion and InstructPix2Pix with cross-view attention** to support consistency across viewpoints. The project uses **CLIP Directional Similarity** to evaluate semantic editing direction; this measures instruction alignment rather than multiview consistency itself.

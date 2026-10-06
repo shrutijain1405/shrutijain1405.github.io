@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Light Weight Character and Shape Recognition for Autonomous Drones
-description: Workshop — ICML 2022
+title: Lightweight Visual Recognition for Autonomous UAVs
+description: Aerial-marker detection and classification under compute constraints · ICML 2022 workshop
 img: assets/img/projects/drones.png
 importance: 8
 category: Projects
@@ -17,4 +17,6 @@ category: Projects
 
 {% include figure.html path="assets/img/projects/drones.png" title="Drone Character Recognition Pipeline" class="img-fluid rounded z-depth-1" %}
 
-This work proposes a lightweight object detection and classification pipeline for recognizing alphanumeric characters superimposed on colored shapes in aerial UAV imagery — a task central to the AUVSI-SUAS competition, where drones must reliably identify location markers across a combinatorial space of shapes, characters, and colors. The pipeline combines classical computer vision techniques with unsupervised machine learning for region proposal and target segmentation, followed by a computationally efficient classification model designed to run in real time on the resource-constrained hardware typical of aerial platforms.
+This work develops a lightweight pipeline for recognizing characters and colored shapes in aerial imagery for autonomous UAV applications. It combines classical image processing and unsupervised methods for candidate-region extraction and segmentation with an efficient classifier.
+
+The approach addresses false positives and recognition errors while keeping computation suitable for resource-constrained aerial platforms.

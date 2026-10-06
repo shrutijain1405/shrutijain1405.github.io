@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Benchmarking Flash-Attention and Variants for ViT
-description: Efficient attention mechanisms for Vision Transformers
+title: Efficient Attention for Vision Transformers
+description: Python/CUDA implementation and evaluation of memory, runtime, and numerical correctness
 img: assets/img/projects/flash_attention.png
 importance: 5
 category: Projects
@@ -15,4 +15,6 @@ category: Projects
 
 {% include figure.html path="assets/img/projects/flash_attention.png" title="Flash Attention Benchmark Results" class="img-fluid rounded z-depth-1" %}
 
-This project implements and benchmarks Flash-Attention and several of its variants within a custom Vision Transformer built on Minitorch — a from-scratch deep learning framework in Python and CUDA — comparing standard attention, Flash-Attention, block-sparse attention, and multi-query attention across wall-clock time, memory usage, and numerical correctness at varying sequence lengths, batch sizes, and image resolutions to characterize the memory-throughput trade-offs relevant to ViT workloads.
+This project implements and benchmarks attention mechanisms within a custom Vision Transformer built on **Minitorch**, a deep learning framework in Python and CUDA. It compares **standard, Flash, block-sparse, and multi-query attention** across sequence lengths, batch sizes, and image resolutions.
+
+The evaluation measures wall-clock time, memory use, and numerical correctness to characterize the tradeoffs involved in efficient vision-model execution.

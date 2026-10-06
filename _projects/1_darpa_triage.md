@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multimodal Medical Triaging on UAV Data
-description: DARPA Triage Challenge — AIRLab, CMU
+title: Cross-View Re-Identification and Multimodal Casualty Assessment
+description: Scene graphs, thermal/near-IR identity association, and VLM adaptation for UAV perception · AIRLab, CMU
 img: assets/img/projects/darpa_triage.png
 importance: 1
 category: Projects
@@ -17,4 +17,6 @@ category: Projects
 
 {% include figure.html path="assets/img/projects/darpa_triage.png" title="DARPA Triage Pipeline" class="img-fluid rounded z-depth-1" %}
 
-This project develops a multimodal medical triaging pipeline for the DARPA Triage Challenge, which aims to enable autonomous systems to rapidly detect and prioritize casualties in disaster scenarios using UAV imagery. The system leverages both RGB and thermal (IR) drone data to predict 50+ hierarchical medical labels — including hemorrhage, trauma, posture, and respiratory distress — addressing the critical challenge of limited paired RGB–IR training data by first training a conditional diffusion model to synthesize thermal images from RGB inputs and then using these synthetic multimodal pairs to fine-tune Vision-Language Models for robust casualty understanding and triage reasoning in complex real-world environments.
+At AIRLab, I’m developing methods to associate casualties across aerial thermal and ground near-infrared video using tracklet appearance, posture, and environmental context. This scene-graph-based re-identification work connects observations across viewpoints and modalities to support casualty assessment for the DARPA Triage Challenge.
+
+A complementary part of the project addresses limited paired RGB–thermal data through conditional image generation and VLM fine-tuning with **LoRA and GRPO**. Together, these efforts connect identity association with multimodal visual understanding.

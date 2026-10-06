@@ -1,5 +1,8 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign work = data[1] | sort: 'startDate' | reverse %}
+  {% assign ongoing = work | where_exp: 'role', "role.endDate == nil or role.endDate == ''" %}
+  {% assign completed = work | where_exp: 'role', "role.endDate != nil and role.endDate != ''" %}
+  {% assign work = ongoing | concat: completed %}
   {% for content in work %}
   <li class="list-group-item">
     <div class="row">

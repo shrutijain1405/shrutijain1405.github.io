@@ -1,7 +1,7 @@
 ---
 layout: page
-title: DiffPrompter — Visual Prompting for Segmentation in Adverse Conditions
-description: Differentiable Implicit Visual Prompts · IROS 2024
+title: "DiffPrompter: Adapting Vision Foundation Models to Adverse Conditions"
+description: Learned visual prompts and adapters for robust vehicle segmentation · IROS 2024
 img: assets/img/projects/diffprompter.png
 importance: 3
 category: Projects
@@ -21,4 +21,6 @@ category: Projects
 
 {% include figure.html path="assets/img/projects/diffprompter.png" title="DiffPrompter Architecture" class="img-fluid rounded z-depth-1" %}
 
-DiffPrompter introduces a novel differentiable visual and latent prompting mechanism for adapting foundation models to semantic segmentation under adverse weather conditions such as rain, fog, snow, and nighttime driving. The approach proposes a ∇HFC image processing block that excels at extracting structure in challenging conditions where conventional preprocessing fails, and jointly trains visual and latent prompts through Parallel (PDA) and Serial (SDA) Differentiable Adaptor architectures — achieving state-of-the-art out-of-distribution segmentation performance on BDD100K, ACDC, WildDash, and Dark-Zurich, outperforming prior methods EVP and SAM-Adapter.
+DiffPrompter adapts vision foundation models using differentiable image preprocessing, learned visual and latent prompts, and adapter modules. I worked on **Parallel (PDA) and Serial (SDA) Differentiable Adaptor** architectures for vehicle foreground segmentation under challenging visual conditions.
+
+Evaluation across driving datasets examines how models trained on **BDD100K** generalize to **ACDC, WildDash, and Dark-Zurich**, while ablations investigate the contributions of preprocessing and latent context.

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Auto Edit: Intelligent Video Reframing Tool"
-description: Multimodal computer vision and editorial reasoning · Flowstate AI
+title: "Auto Edit: Language-Guided Subject Tracking and Video Reframing"
+description: Visual grounding, trajectory verification, and temporal consistency in a shipped video system · Flowstate AI
 img: assets/img/projects/auto_edit.png
 importance: 0
 category: Projects
@@ -13,8 +13,8 @@ category: Projects
 
 ---
 
-{% include figure.html path="assets/img/projects/auto_edit.png" title="Auto Edit: Intelligent Video Reframing Tool" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/projects/auto_edit.png" title="Auto Edit: Language-Guided Subject Tracking and Video Reframing" class="img-fluid rounded z-depth-1" %}
 
-Auto Edit is a multimodal computer vision system that turns long-form horizontal video into story-aware vertical edits. Instead of treating the task as a simple center crop, the system first reasons about which moments satisfy a creative brief, then decides how each selected shot should be framed for a 9:16 canvas.
+I built and shipped an end-to-end video-editing system that translates a creative brief into subject selection, tracking, and stable vertical framing. The pipeline combines VLM-based grounding, SAM3 tracking, and trajectory verification, with automated correction of unreliable trajectories.
 
-I worked across the system end to end: translating creative intent and video context into editable story plans, building shot-aware subject grounding and tracking, composing stable vertical framing, and creating evaluation signals for motion, composition, and narrative quality. Human review remains part of the workflow through transparent scene and framing decisions that can be retimed, reordered, or refined.
+Introducing automated jerk detection and correction improved soccer-ball tracking precision by **15.4%**. My work also covered scene- and shot-level workflow orchestration in **Temporal** and component-level evaluation of tracking, framing stability, latency, and cost.
