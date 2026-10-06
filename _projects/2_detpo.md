@@ -1,13 +1,13 @@
 ---
 layout: page
 title: DetPO — Few-Shot Object Detection via Prompt Optimization
-description: In-Context Learning with Multi-Modal LLMs · ECCV Under Review
+description: In-Context Learning with Multi-Modal LLMs · ECCV 2026
 img: assets/img/projects/detpo.png
 importance: 2
 category: Projects
 ---
 
-**Status:** Under Review — ECCV (Rebuttal)
+**Status:** Accepted — ECCV 2026
 
 [Paper](https://arxiv.org/abs/2603.23455)
 

@@ -29,7 +29,7 @@ I also worked on real-time sleep staging using Interbeat Interval (IBI) of Heart
 
 During my undergraduate study, I was a part of the [Spider R&D Club](https://spider.nitt.edu/) as a Machine Learning Researcher. My role involved contributing to interdisciplinary projects, organizing knowledge-sharing sessions and mentoring juniors.
  -->
-Shruti Jain is a graduate student in Computer Vision at Carnegie Mellon University, focused on building reliable multimodal vision systems. Her research has appeared at IROS 2024 and workshops at ICML and NeurIPS.
+Shruti Jain is a graduate student in Computer Vision at Carnegie Mellon University, focused on building reliable multimodal vision systems. Her research has been accepted at ECCV 2026, IROS 2024, and workshops at ICML and NeurIPS.
 
 During her summer internship at Flowstate AI, she architected and shipped an AI video editor that transforms long-form footage into prompt-driven vertical content. Her work spanned multimodal story planning, subject grounding and tracking, automated reframing, orchestration, and evaluation.
 
